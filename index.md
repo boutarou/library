@@ -1,16 +1,16 @@
 ---
 data:
   libraryCategories:
-  - name: .
+  - name: utility
     pages:
     - icon: ':warning:'
-      path: template.cpp
-      title: template.cpp
+      path: utility/template.cpp
+      title: utility/template.cpp
   verificationCategories:
-  - name: .
+  - name: test
     pages:
     - icon: ':heavy_check_mark:'
-      path: example.test.cpp
-      title: example.test.cpp
+      path: test/example.test.cpp
+      title: test/example.test.cpp
 layout: toppage
 ---
