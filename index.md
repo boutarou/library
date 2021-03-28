@@ -4,6 +4,9 @@ data:
   - name: datastructure
     pages:
     - icon: ':heavy_check_mark:'
+      path: datastructure/BIT.cpp
+      title: BIT(Fenwick Tree)
+    - icon: ':heavy_check_mark:'
       path: datastructure/UnionFind.cpp
       title: Union Find
   - name: utility
@@ -14,6 +17,9 @@ data:
   verificationCategories:
   - name: test
     pages:
+    - icon: ':heavy_check_mark:'
+      path: test/BIT.test.cpp
+      title: test/BIT.test.cpp
     - icon: ':heavy_check_mark:'
       path: test/UnionFind.test.cpp
       title: test/UnionFind.test.cpp

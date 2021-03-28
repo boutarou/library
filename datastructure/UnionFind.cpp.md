@@ -10,8 +10,6 @@ data:
   _pathExtension: cpp
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
-    _deprecated_at_docs: docs/UnionFind.md
-    document_title: Union Find
     links: []
   bundledCode: "#line 2 \"datastructure/UnionFind.cpp\"\n#include <algorithm>\n#include\
     \ <vector>\n#include <cassert>\n\nclass UnionFind {\nprivate:\n    int n;\n  \
@@ -30,8 +28,7 @@ data:
     \   int now_root = root(i);\n            if(roots_num[now_root] == -1) {\n   \
     \             roots_num[now_root] = now;\n                now++;\n           \
     \     res.push_back(std::vector<int>());\n            }\n            res[roots_num[now_root]].push_back(i);\n\
-    \        }\n        return res;\n    }\n};\n\n/*\n@brief Union Find\n@docs docs/UnionFind.md\n\
-    */\n"
+    \        }\n        return res;\n    }\n};\n"
   code: "#pragma once\n#include <algorithm>\n#include <vector>\n#include <cassert>\n\
     \nclass UnionFind {\nprivate:\n    int n;\n    std::vector<int> par;\npublic:\n\
     \    UnionFind(int n = 0) : n(n), par(n, -1) {}\n\n    int root(int x) {\n   \
@@ -49,13 +46,12 @@ data:
     \   int now_root = root(i);\n            if(roots_num[now_root] == -1) {\n   \
     \             roots_num[now_root] = now;\n                now++;\n           \
     \     res.push_back(std::vector<int>());\n            }\n            res[roots_num[now_root]].push_back(i);\n\
-    \        }\n        return res;\n    }\n};\n\n/*\n@brief Union Find\n@docs docs/UnionFind.md\n\
-    */\n"
+    \        }\n        return res;\n    }\n};\n"
   dependsOn: []
   isVerificationFile: false
   path: datastructure/UnionFind.cpp
   requiredBy: []
-  timestamp: '2021-03-28 11:59:36+09:00'
+  timestamp: '2021-03-28 14:29:57+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - test/UnionFind.test.cpp

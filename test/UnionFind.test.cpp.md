@@ -33,15 +33,14 @@ data:
     \            if(roots_num[now_root] == -1) {\n                roots_num[now_root]\
     \ = now;\n                now++;\n                res.push_back(std::vector<int>());\n\
     \            }\n            res[roots_num[now_root]].push_back(i);\n        }\n\
-    \        return res;\n    }\n};\n\n/*\n@brief Union Find\n@docs docs/UnionFind.md\n\
-    */\n#line 4 \"test/UnionFind.test.cpp\"\nusing namespace std;\n#define rep(i,\
-    \ n) for(int i = 0; i < int(n); i++)\nusing ll = long long;\nusing P = pair<int,\
-    \ int>;\n\n#define PROBLEM \"https://judge.yosupo.jp/problem/unionfind\"\n\nint\
-    \ main() {\n    int n, q;\n    cin >> n >> q;\n    vector<int> t(q), u(q), v(q);\n\
-    \    rep(i, q) {\n        cin >> t[i] >> u[i] >> v[i];\n    }\n    UnionFind uf(n);\n\
-    \    rep(i, q) {\n        if (t[i] == 0) {\n            uf.unite(u[i], v[i]);\n\
-    \        }\n        else {\n            cout << (uf.same(u[i], v[i]) ? 1 : 0)\
-    \ << endl;\n        }\n    }\n    return 0;\n}\n"
+    \        return res;\n    }\n};\n#line 4 \"test/UnionFind.test.cpp\"\nusing namespace\
+    \ std;\n#define rep(i, n) for(int i = 0; i < int(n); i++)\nusing ll = long long;\n\
+    using P = pair<int, int>;\n\n#define PROBLEM \"https://judge.yosupo.jp/problem/unionfind\"\
+    \n\nint main() {\n    int n, q;\n    cin >> n >> q;\n    vector<int> t(q), u(q),\
+    \ v(q);\n    rep(i, q) {\n        cin >> t[i] >> u[i] >> v[i];\n    }\n    UnionFind\
+    \ uf(n);\n    rep(i, q) {\n        if (t[i] == 0) {\n            uf.unite(u[i],\
+    \ v[i]);\n        }\n        else {\n            cout << (uf.same(u[i], v[i])\
+    \ ? 1 : 0) << endl;\n        }\n    }\n    return 0;\n}\n"
   code: "#include <iostream>\n#include <vector>\n#include \"../datastructure/UnionFind.cpp\"\
     \nusing namespace std;\n#define rep(i, n) for(int i = 0; i < int(n); i++)\nusing\
     \ ll = long long;\nusing P = pair<int, int>;\n\n#define PROBLEM \"https://judge.yosupo.jp/problem/unionfind\"\
@@ -55,7 +54,7 @@ data:
   isVerificationFile: true
   path: test/UnionFind.test.cpp
   requiredBy: []
-  timestamp: '2021-03-28 11:59:36+09:00'
+  timestamp: '2021-03-28 14:29:57+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: test/UnionFind.test.cpp
