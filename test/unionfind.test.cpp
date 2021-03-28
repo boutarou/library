@@ -6,6 +6,8 @@ using namespace std;
 using ll = long long;
 using P = pair<int, int>;
 
+#define PROBLEM "https://judge.yosupo.jp/problem/unionfind"
+
 int main() {
     int n, q;
     cin >> n >> q;
