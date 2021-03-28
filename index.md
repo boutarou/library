@@ -5,7 +5,7 @@ data:
     pages:
     - icon: ':heavy_check_mark:'
       path: datastructure/UnionFind.cpp
-      title: datastructure/UnionFind.cpp
+      title: Union Find
   - name: utility
     pages:
     - icon: ':warning:'
