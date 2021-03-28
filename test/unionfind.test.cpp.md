@@ -1,17 +1,19 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: datastructure/unionfind.cpp
     title: datastructure/unionfind.cpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: cpp
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
-    links: []
+    PROBLEM: https://judge.yosupo.jp/problem/unionfind
+    links:
+    - https://judge.yosupo.jp/problem/unionfind
   bundledCode: "#line 1 \"test/unionfind.test.cpp\"\n#include <iostream>\n#include\
     \ <vector>\n#line 2 \"datastructure/unionfind.cpp\"\n#include <algorithm>\n#line\
     \ 4 \"datastructure/unionfind.cpp\"\n#include <cassert>\n\nclass UnionFind {\n\
@@ -33,27 +35,27 @@ data:
     \            }\n            res[roots_num[now_root]].push_back(i);\n        }\n\
     \        return res;\n    }\n};\n#line 4 \"test/unionfind.test.cpp\"\nusing namespace\
     \ std;\n#define rep(i, n) for(int i = 0; i < int(n); i++)\nusing ll = long long;\n\
-    using P = pair<int, int>;\n\nint main() {\n    int n, q;\n    cin >> n >> q;\n\
-    \    vector<int> t(q), u(q), v(q);\n    rep(i, q) {\n        cin >> t[i] >> u[i]\
-    \ >> v[i];\n    }\n    UnionFind uf(n);\n    rep(i, q) {\n        if (t[i] ==\
-    \ 0) {\n            uf.unite(u[i], v[i]);\n        }\n        else {\n       \
-    \     cout << (uf.same(u[i], v[i]) ? 1 : 0) << endl;\n        }\n    }\n    return\
-    \ 0;\n}\n"
+    using P = pair<int, int>;\n\n#define PROBLEM \"https://judge.yosupo.jp/problem/unionfind\"\
+    \n\nint main() {\n    int n, q;\n    cin >> n >> q;\n    vector<int> t(q), u(q),\
+    \ v(q);\n    rep(i, q) {\n        cin >> t[i] >> u[i] >> v[i];\n    }\n    UnionFind\
+    \ uf(n);\n    rep(i, q) {\n        if (t[i] == 0) {\n            uf.unite(u[i],\
+    \ v[i]);\n        }\n        else {\n            cout << (uf.same(u[i], v[i])\
+    \ ? 1 : 0) << endl;\n        }\n    }\n    return 0;\n}\n"
   code: "#include <iostream>\n#include <vector>\n#include \"../datastructure/unionfind.cpp\"\
     \nusing namespace std;\n#define rep(i, n) for(int i = 0; i < int(n); i++)\nusing\
-    \ ll = long long;\nusing P = pair<int, int>;\n\nint main() {\n    int n, q;\n\
-    \    cin >> n >> q;\n    vector<int> t(q), u(q), v(q);\n    rep(i, q) {\n    \
-    \    cin >> t[i] >> u[i] >> v[i];\n    }\n    UnionFind uf(n);\n    rep(i, q)\
-    \ {\n        if (t[i] == 0) {\n            uf.unite(u[i], v[i]);\n        }\n\
-    \        else {\n            cout << (uf.same(u[i], v[i]) ? 1 : 0) << endl;\n\
-    \        }\n    }\n    return 0;\n}\n"
+    \ ll = long long;\nusing P = pair<int, int>;\n\n#define PROBLEM \"https://judge.yosupo.jp/problem/unionfind\"\
+    \n\nint main() {\n    int n, q;\n    cin >> n >> q;\n    vector<int> t(q), u(q),\
+    \ v(q);\n    rep(i, q) {\n        cin >> t[i] >> u[i] >> v[i];\n    }\n    UnionFind\
+    \ uf(n);\n    rep(i, q) {\n        if (t[i] == 0) {\n            uf.unite(u[i],\
+    \ v[i]);\n        }\n        else {\n            cout << (uf.same(u[i], v[i])\
+    \ ? 1 : 0) << endl;\n        }\n    }\n    return 0;\n}\n"
   dependsOn:
   - datastructure/unionfind.cpp
   isVerificationFile: true
   path: test/unionfind.test.cpp
   requiredBy: []
-  timestamp: '2021-03-28 10:14:29+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2021-03-28 10:23:40+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: test/unionfind.test.cpp
 layout: document

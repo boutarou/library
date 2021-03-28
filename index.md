@@ -3,7 +3,7 @@ data:
   libraryCategories:
   - name: datastructure
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: datastructure/unionfind.cpp
       title: datastructure/unionfind.cpp
   - name: utility
@@ -17,7 +17,7 @@ data:
     - icon: ':heavy_check_mark:'
       path: test/example.test.cpp
       title: test/example.test.cpp
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: test/unionfind.test.cpp
       title: test/unionfind.test.cpp
 layout: toppage
