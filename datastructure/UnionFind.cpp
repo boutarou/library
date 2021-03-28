@@ -55,8 +55,3 @@ public:
         return res;
     }
 };
-
-/*
-@brief Union Find
-@docs docs/UnionFind.md
-*/
