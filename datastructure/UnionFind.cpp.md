@@ -61,11 +61,9 @@ data:
   - test/UnionFind.test.cpp
 documentation_of: datastructure/UnionFind.cpp
 layout: document
-redirect_from:
-- /library/datastructure/UnionFind.cpp
-- /library/datastructure/UnionFind.cpp.html
 title: Union Find
 ---
+
 ## 概要
 
 素集合データ構造(acl参考)
