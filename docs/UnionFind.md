@@ -1,3 +1,8 @@
+---
+title: Union Find
+documentation_of: ../datastructure/UnionFind.cpp
+---
+
 ## 概要
 
 素集合データ構造(acl参考)
