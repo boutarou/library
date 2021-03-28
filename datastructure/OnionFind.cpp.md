@@ -2,16 +2,13 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith:
-  - icon: ':heavy_check_mark:'
-    path: test/unionfind.test.cpp
-    title: test/unionfind.test.cpp
+  _extendedVerifiedWith: []
   _isVerificationFailed: false
   _pathExtension: cpp
-  _verificationStatusIcon: ':heavy_check_mark:'
+  _verificationStatusIcon: ':warning:'
   attributes:
     links: []
-  bundledCode: "#line 2 \"datastructure/unionfind.cpp\"\n#include <algorithm>\n#include\
+  bundledCode: "#line 2 \"datastructure/OnionFind.cpp\"\n#include <algorithm>\n#include\
     \ <vector>\n#include <cassert>\n\nclass UnionFind {\nprivate:\n    int n;\n  \
     \  std::vector<int> par;\npublic:\n    UnionFind(int n = 0) : n(n), par(n, -1)\
     \ {}\n\n    int root(int x) {\n        assert(0 <= x && x < n);\n        if(par[x]\
@@ -49,16 +46,15 @@ data:
     \        }\n        return res;\n    }\n};"
   dependsOn: []
   isVerificationFile: false
-  path: datastructure/unionfind.cpp
+  path: datastructure/OnionFind.cpp
   requiredBy: []
-  timestamp: '2021-03-28 10:14:29+09:00'
-  verificationStatus: LIBRARY_ALL_AC
-  verifiedWith:
-  - test/unionfind.test.cpp
-documentation_of: datastructure/unionfind.cpp
+  timestamp: '2021-03-28 10:27:12+09:00'
+  verificationStatus: LIBRARY_NO_TESTS
+  verifiedWith: []
+documentation_of: datastructure/OnionFind.cpp
 layout: document
 redirect_from:
-- /library/datastructure/unionfind.cpp
-- /library/datastructure/unionfind.cpp.html
-title: datastructure/unionfind.cpp
+- /library/datastructure/OnionFind.cpp
+- /library/datastructure/OnionFind.cpp.html
+title: datastructure/OnionFind.cpp
 ---

@@ -3,9 +3,9 @@ data:
   libraryCategories:
   - name: datastructure
     pages:
-    - icon: ':heavy_check_mark:'
-      path: datastructure/unionfind.cpp
-      title: datastructure/unionfind.cpp
+    - icon: ':warning:'
+      path: datastructure/OnionFind.cpp
+      title: datastructure/OnionFind.cpp
   - name: utility
     pages:
     - icon: ':warning:'
@@ -14,11 +14,11 @@ data:
   verificationCategories:
   - name: test
     pages:
+    - icon: ':x:'
+      path: test/OnionFind.test.cpp
+      title: test/OnionFind.test.cpp
     - icon: ':heavy_check_mark:'
       path: test/example.test.cpp
       title: test/example.test.cpp
-    - icon: ':heavy_check_mark:'
-      path: test/unionfind.test.cpp
-      title: test/unionfind.test.cpp
 layout: toppage
 ---
