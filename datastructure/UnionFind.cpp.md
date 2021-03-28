@@ -4,8 +4,8 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
-    path: test/OnionFind.test.cpp
-    title: test/OnionFind.test.cpp
+    path: test/UnionFind.test.cpp
+    title: test/UnionFind.test.cpp
   _isVerificationFailed: false
   _pathExtension: cpp
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -54,7 +54,7 @@ data:
   timestamp: '2021-03-28 10:31:36+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - test/OnionFind.test.cpp
+  - test/UnionFind.test.cpp
 documentation_of: datastructure/UnionFind.cpp
 layout: document
 redirect_from:

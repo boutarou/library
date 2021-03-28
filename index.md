@@ -15,8 +15,8 @@ data:
   - name: test
     pages:
     - icon: ':heavy_check_mark:'
-      path: test/OnionFind.test.cpp
-      title: test/OnionFind.test.cpp
+      path: test/UnionFind.test.cpp
+      title: test/UnionFind.test.cpp
     - icon: ':heavy_check_mark:'
       path: test/example.test.cpp
       title: test/example.test.cpp

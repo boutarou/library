@@ -14,7 +14,7 @@ data:
     PROBLEM: https://judge.yosupo.jp/problem/unionfind
     links:
     - https://judge.yosupo.jp/problem/unionfind
-  bundledCode: "#line 1 \"test/OnionFind.test.cpp\"\n#include <iostream>\n#include\
+  bundledCode: "#line 1 \"test/UnionFind.test.cpp\"\n#include <iostream>\n#include\
     \ <vector>\n#line 2 \"datastructure/UnionFind.cpp\"\n#include <algorithm>\n#line\
     \ 4 \"datastructure/UnionFind.cpp\"\n#include <cassert>\n\nclass UnionFind {\n\
     private:\n    int n;\n    std::vector<int> par;\npublic:\n    UnionFind(int n\
@@ -33,7 +33,7 @@ data:
     \            if(roots_num[now_root] == -1) {\n                roots_num[now_root]\
     \ = now;\n                now++;\n                res.push_back(std::vector<int>());\n\
     \            }\n            res[roots_num[now_root]].push_back(i);\n        }\n\
-    \        return res;\n    }\n};\n#line 4 \"test/OnionFind.test.cpp\"\nusing namespace\
+    \        return res;\n    }\n};\n#line 4 \"test/UnionFind.test.cpp\"\nusing namespace\
     \ std;\n#define rep(i, n) for(int i = 0; i < int(n); i++)\nusing ll = long long;\n\
     using P = pair<int, int>;\n\n#define PROBLEM \"https://judge.yosupo.jp/problem/unionfind\"\
     \n\nint main() {\n    int n, q;\n    cin >> n >> q;\n    vector<int> t(q), u(q),\
@@ -52,15 +52,15 @@ data:
   dependsOn:
   - datastructure/UnionFind.cpp
   isVerificationFile: true
-  path: test/OnionFind.test.cpp
+  path: test/UnionFind.test.cpp
   requiredBy: []
-  timestamp: '2021-03-28 10:31:36+09:00'
+  timestamp: '2021-03-28 10:34:55+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
-documentation_of: test/OnionFind.test.cpp
+documentation_of: test/UnionFind.test.cpp
 layout: document
 redirect_from:
-- /verify/test/OnionFind.test.cpp
-- /verify/test/OnionFind.test.cpp.html
-title: test/OnionFind.test.cpp
+- /verify/test/UnionFind.test.cpp
+- /verify/test/UnionFind.test.cpp.html
+title: test/UnionFind.test.cpp
 ---
