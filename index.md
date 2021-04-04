@@ -9,6 +9,14 @@ data:
     - icon: ':heavy_check_mark:'
       path: datastructure/UnionFind.cpp
       title: Union Find
+  - name: math
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: math/comb.cpp
+      title: combination
+    - icon: ':heavy_check_mark:'
+      path: math/modint.cpp
+      title: modint
   - name: utility
     pages:
     - icon: ':warning:'
@@ -23,6 +31,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: test/UnionFind.test.cpp
       title: test/UnionFind.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: test/comb.test.cpp
+      title: test/comb.test.cpp
     - icon: ':heavy_check_mark:'
       path: test/example.test.cpp
       title: test/example.test.cpp
