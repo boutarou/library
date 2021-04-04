@@ -15,8 +15,8 @@ BIT(Binary Indexed Tree), Fenwick Tree
 * `T bit.sum(int l, int r)` : $a_l + a_{l + 1} + a_{l + 2} \ldots + a_{r - 1}$ を返す
 
 ## 制約
-* `add` : $0 \leq p < n$
-* `sum` : $0 \leq l \leq r \leq n$
+* `add` : **$0 \leq p < n$**
+* `sum` : **$0 \leq l \leq r \leq n$**
 
 ## 計算量
 * `コンストラクタ` : $O(n)$

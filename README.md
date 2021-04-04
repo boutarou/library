@@ -12,6 +12,8 @@
 ## graph
 
 ## math
+* modint
+* combination
 
 ## string
 
