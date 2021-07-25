@@ -78,6 +78,6 @@ title: Union Find
 * $0 \leq x, y < n$
 
 ## 計算量
-* `UnionFind, groups` : $O(n)$
-* `size` : $O(1)$
-* `others` : ならし $O(\alpha(n))$
+* `UnionFind, groups` : \mathcal{O}(n)
+* `size` : \mathcal{O}(1)
+* `others` : ならし \mathcal{O}(\alpha(n))
