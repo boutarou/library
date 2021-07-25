@@ -14,8 +14,8 @@ combination, permutationをMODで割った余りを返す
 
 ## 制約
 * $n < MOD$
-* $0 \leq x <= n$
+* $0 \leq x \leq n$
 
 ## 計算量
-* `コンストラクタ` : $O(n)$
-* `operator()` : $O(1)$
+* `コンストラクタ` : \mathcal{O}(n)
+* `operator()` : \mathcal{O}(1)

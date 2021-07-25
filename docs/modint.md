@@ -21,6 +21,6 @@ using mint = modint<998244353>;
 * `int x.val()` : $x$ に格納されている値を返す
 
 ## 計算量
-* `加算, 減算, 乗算, val` : $O(1)$
-* `除算, inv` : $O(log MOD)$
-* `pow` : $O(log n)$
+* `加算, 減算, 乗算, val` : \mathcal{O}(1)
+* `除算, inv` : \mathcal{O}(\log MOD)
+* `pow` : \mathcal{O}(\log n)
