@@ -92,5 +92,5 @@ combination, permutationをMODで割った余りを返す
 * $0 \leq x \leq n$
 
 ## 計算量
-* `コンストラクタ` : \mathcal{O}(n)
-* `operator()` : \mathcal{O}(1)
+* `コンストラクタ` : $\mathcal{O}(n)$
+* `operator()` : $\mathcal{O}(1)$

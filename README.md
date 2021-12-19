@@ -10,6 +10,8 @@
 * BIT
 
 ## graph
+* Dinic
+* FordFulkerson
 
 ## math
 * modint

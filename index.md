@@ -9,6 +9,14 @@ data:
     - icon: ':heavy_check_mark:'
       path: datastructure/UnionFind.cpp
       title: Union Find
+  - name: graph
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: graph/Dinic.cpp
+      title: Dinic
+    - icon: ':heavy_check_mark:'
+      path: graph/FordFulkerson.cpp
+      title: Ford Fulkerson
   - name: math
     pages:
     - icon: ':heavy_check_mark:'
@@ -28,6 +36,12 @@ data:
     - icon: ':heavy_check_mark:'
       path: test/BIT.test.cpp
       title: test/BIT.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: test/Dinic.test.cpp
+      title: test/Dinic.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: test/FordFulkerson.test.cpp
+      title: test/FordFulkerson.test.cpp
     - icon: ':heavy_check_mark:'
       path: test/UnionFind.test.cpp
       title: test/UnionFind.test.cpp
